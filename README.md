@@ -21,3 +21,13 @@ Para usar o sistema de controle de torres de resfriamento, primeiro crie uma ins
 
 ```python
 tower = CoolingTower()
+
+Sequência de Partida
+Para iniciar os motores e ventiladores em sequência:
+
+Python
+
+tower.start_sequence()
+Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
+Sequência de Parada
+Para parar os motores e ventiladores em sequência:
